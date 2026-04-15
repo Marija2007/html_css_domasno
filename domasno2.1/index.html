@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>УЈП - Формулар</title>
+</head>
+<body>
+    <h2>Управа за јавни приходи - Формулар за пријава на приход</h2>
+    <form action="">
+        <fieldset>
+            <h2>Лични податоци :</h2>
+            <label for="">Име:</label><br>
+            <input type="text"><br><br>
+            <label for="">Презиме:</label><br>
+            <input type="text"><br><br>
+            <label for="">ЕМБГ:</label><br>
+            <input type="text"><br><br>
+            <label for="">Датум на раѓање:</label><br>
+            <input type="date"><br><br>
+            <label for="">Пол:</label><br>
+            <input type="radio" id="masko" name="pol" value="машко">
+            <label for="masko">Машко</label>
+            <input type="radio" id="zensko" name="pol" value="женско">
+            <label for="zensko">Женско</label><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <h2>Контакт податоци</h2>
+            <label for="">Адреса:</label><br>
+            <input type="text"><br><br>
+            <label for="">Град:</label><br>
+            <input type="text"><br><br>
+            <label for="">Општина:</label><br>
+            <select id="" name="">
+                <option value="">Избери општина</option>
+                <option value="">Скопје</option>
+                <option value="">Битола</option>
+                <option value="">Струмица</option>
+                <option value="">Тетово</option>
+                <option value="">Охрид</option>
+                <option value="">Куманово</option>
+                <option value="">Велес</option>
+                <option value="">Штип</option>
+            </select><br><br>
+            <label for="">Телефон:</label><br>
+            <input type="tel"><br><br>
+            <label for="">Е-пошта:</label><br>
+            <input type="email"><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <h2>Податоци за приход :</h2>
+            <label for="">Вид на доход:</label><br>
+            <select id="" name="">
+                <option value="">Избери вид</option>
+                <option value="">Плата</option>
+                <option value="">Самостојна дејност</option>
+                <option value="">Кирија</option>
+                <option value="">Приход од капитал</option>
+                <option value="">Друго</option>
+            </select><br><br>
+            <label for="">Износ на доход (МКД):</label><br>
+            <input type="number"><br><br>
+            <label for="">Период:</label><br>
+            <input type="month"><br><br>
+            <label for="">Напомена:</label><br>
+            <textarea id=""></textarea><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <h2>Изјава</h2>
+            <input type="checkbox" value="da">
+            <label for="">Изјавувам дека внесените податоци се точни и вистинити.</label><br><br>
+            <input type="checkbox" value="da">
+            <label for="">Се согласувам со обработката на личните податоци.</label><br><br>
+        </fieldset>
+        <br>
+        <input type="submit" value="Поднеси формулар">
+        <input type="reset" value="Исчисти">
+    </form>
+</body>
+</html>
