@@ -1,0 +1,79 @@
+body{
+    background-color: silver;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: cadetblue;
+    color: black;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 30px;
+    border: 1px solid black;
+    text-align: center;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    font-style: oblique;
+    background-color: darkkhaki;
+    color: slateblue;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 15px;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: medium;
+     font-weight: 700;
+     font-style: oblique;
+     background-color: dimgray;
+     color: khaki;
+     padding: 13px;
+     margin: 20px;
+     border: 1px solid black;
+     border-radius: 41px;
+}
+ul{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: 700;
+    font-style: inherit;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: brown;
+    color: bisque;
+}
+a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 900;
+    font-style: italic;
+    background-color: aquamarine;
+    color: darkolivegreen;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+table{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+    background-color: sienna;
+    color: wheat;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px;
+}
+img{
+    text-align: center;
+}
