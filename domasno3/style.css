@@ -1,28 +1,36 @@
 body {
   font-family: 'Georgia', serif;
-  background-color: #f8f8f8;
+  background-color: white;
   display: flex;
   height: 100vh;
 }
 
 .card {
-  background-color: white;
-  border-radius: 15px;
-  width: 320px;
+  background-color: papayawhip;
+  border-radius: 30px;
+  border: 1px solid pink;
+  width: 300px;
   text-align: center;
-  padding: 20px;
+  padding: 40px;
 }
 
 .card-title {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: pink;
+  border-radius: 30px;
+  padding: 5px;
   color: #444;
-  margin: 15px 0 10px;
+  margin: 30px;
   font-size: 22px;
 }
 
 .card-text {
-  color: #666;
-  font-size: 14px;
-  margin-bottom: 10px;
+   background-color: papayawhip;
+   border: 1px solid pink;
+   border-radius: 15px;
+   color: #666;
+   font-size: 14px;
+   margin-bottom: 10px;
 }
 
 .card-price {
@@ -42,4 +50,3 @@ body {
 .buy-btn:hover {
   background-color: #8b1a1a;
 }
-
